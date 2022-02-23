@@ -1,0 +1,120 @@
+<!--
+    Please note that this HTML template is a starting point!
+    It is absolutely not comprehensive, and you will almost surely have to add more.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://lizzyyy.github.io/webdev/proj2.css">
+    <title>Lizzy's Personal Website</title>
+</head>
+<body>
+    <div class="splash-page">
+
+        <div class="navbar">
+            <div class="logo"></div>
+
+            <div class="nav">
+                <div class="nav-button"><a href="#about">About</a></div>
+                <div class="nav-button"><a href="#work">Work</a></div>
+                <div class="nav-button"><a href="#contact">Contact</a></div>
+            </div>
+        </div>
+
+        <div class="headline" id="about">
+            <h1>Hi! I'm Lizzy, a software developer studying Electrical Engineering and Computer Science @ UC Berkeley.</h1>
+            <h2>Thanks for stopping by! <br> Scroll down to see some of my work.</h2>
+        </div>
+    </div>
+
+    <div class="work-container" id="work">
+
+        <div class="row">
+            <div class="proj-names">
+                <b>Projects:</b>
+                Pacman <br>
+                Gitlet <br>
+                Intern <br>
+                RCAP
+            </div>
+            <div class="proj">
+                <img src="https://i.guim.co.uk/img/media/8152f8ea7f06fd8ef5c68a3a594e6ac35dfd774b/0_342_800_480/master/800.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=42bb412858826e59cd33e40975ca3ee1" alt="pacman">
+                <div class="proj-name">Pacman</div>
+                <div class="type">Python, 2022</div>
+                <div class="proj-desc">
+                    <ul>
+                        <li>Designed search functions and game strategies for Pacman, modeled as an adversarial and stochastic search problem</li>
+                        <li>Created search functions with admissible and consistent heuristics to win the game by eating all the food 70% faster than
+                            with a uniform cost search</li>
+                        <li>Incorporated higher order functions to create various game agents, like minimax and expectimax agents, and develop
+                            strategies in evaluation functions to result in a 10/10 win rate with a >1000 average score</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="proj">
+                <img src="https://3.bp.blogspot.com/-xhNpNJJyQhk/XIe4GY78RQI/AAAAAAAAItc/ouueFUj2Hqo5dntmnKqEaBJR4KQ4Q2K3ACK4BGAYYCw/s1600/logo%2Bgit%2Bicon.png" alt="git">
+                <div class="proj-name">Gitlet</div>
+                <div class="type">Java, 2021</div>
+                <div class="proj-desc">
+                    <ul>
+                        <li>Developed a version control system that mimics the features of Git, including the init, add, remove, commit, branching, log,
+                            and merging commands</li>
+                        <li>Maintains a repository that stores serialized and encrypted files with SHA1 hashes in order to save and restore files,
+                            maintain and view backup histories, create multiple branches and merge different versions of files</li>
+                        <li>Stores data in various data structures such as Hashmaps and Hashtrees in order to conduct breadth first traversals to
+                            search for data in linear time</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="proj">
+                <img src="https://media-exp1.licdn.com/dms/image/C4E0BAQHC5zj1UrErQg/company-logo_200_200/0/1519893704794?e=2159024400&v=beta&t=0GVsmFv5920WC79vdRXjInu8dPsohJfp7Op4_-sePvw" alt="sang-nila">
+                <div class="proj-name">Content Developer Intern</div>
+                <div class="type">@ Sang Nila Automatica Pte Ltd, 2020</div>
+                <div class="proj-desc">
+                    <ul>
+                        <li>Analysed past resources to engineer and develop the RoboCup Asia-Pacific CoSpace Learning and Challenge platforms</li>
+                        <li>Wrote teaching and learning materials for the RCAP CoSpace Autonomous Driving competition used worldwide</li>
+                        <li>Redesigned an improved a graphical user interface for the RCAP CoSpace Rescue platform for all future competitions,
+                            improving clarity, aesthetic and user experience by 40%</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="proj">
+                <img src="data:image/jpeg;base64,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" alt="rcap">
+                <div class="proj-name">CoSpace OnStage Organizing Committee Member</div>
+                <div class="type">RoboCup Asia Pacific</div>
+                <div class="proj-desc">
+                    <ul>
+                        <li>Lead team of 10 local volunteers as a head judge to manage the CoSpace Rescue league at RoboCup Asia Pacific held in
+                            Bangkok, Thailand (2017) and Dubai, UAE (2018), with more than 200 teams from 30 countries</li>
+                        <li>Utilized logic and programming knowledge to accurately score teams as the final decision maker in the league</li>
+                        <li>Conducted technical interviews on robotic hardware and software, including intelligent autonomous systems and
+                            algorithms used for all teams with a panel of 4 other judges</li>
+                        <li>Acted as a bridge between >50 people, including young participants, foreign mentors, the local volunteers and the
+                            organizing committee to settle disputes and provide an enjoyable competition experience for all</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="contact" id="contact">
+            <div class="contact-title">Contact me:</div>
+            <div class="links">
+                <a href="https://github.com/lizzyyy">Github</a>
+                <a href="https://www.linkedin.com/in/yuchen-wang-07724b21b/">LinkedIn</a>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+</html>

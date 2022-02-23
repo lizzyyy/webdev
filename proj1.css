@@ -1,0 +1,99 @@
+
+* {
+    background-color: seashell;
+    font-family: FreeMono, monospace;
+    color: rgb(51, 49, 49);
+}
+
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    position: fixed;
+    top:0;
+    right: 0;
+}
+
+.headline {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    padding-top: 20%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+
+.work-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.proj-names{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-left: 15%;
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+}
+
+.proj {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 600px;
+    align-items: center;
+    margin: 60px;
+}
+
+.proj-name {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.type {
+    color: rgb(128, 116, 101)
+}
+
+ul {
+    list-style-type: circle;
+}
+
+li {
+    margin-top: 10px;
+}
+
+img {
+    display: block;
+    max-width:200px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+  }
+
+  .contact {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
